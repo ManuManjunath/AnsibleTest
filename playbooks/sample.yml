@@ -2,4 +2,5 @@
 - name: Testing
   hosts: local
   tasks:
-  - command: echo "Works!"
+  - name: Echo test
+    command: echo "Works!"
