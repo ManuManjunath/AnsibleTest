@@ -3,4 +3,4 @@
   hosts: local
   tasks:
   - name: Echo test
-    command: echo "Works!"
+    shell: echo "Works!"
