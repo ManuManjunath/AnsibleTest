@@ -1,0 +1,5 @@
+---
+- name: Testing
+  hosts: local
+  tasks:
+  - command: echo "Works!"
