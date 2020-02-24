@@ -4,14 +4,3 @@
   tasks:
   - name: Echo test
     shell: echo "Works!"
-
-# handler testing
-- hosts: local
-  tasks:
-    - name: Echo test
-      shell: echo "Works! this is $HOSTNAME"
-      notify: 
-        - Echo worked
-  handlers:
-    - name: Echo worked
-      shell: echo "So this should work too!"
