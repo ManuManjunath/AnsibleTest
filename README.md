@@ -2,7 +2,7 @@
 
 Testing simple playbooks - 
 
-### To install ###
+## To install ##
 Debian system --     `$ sudo apt-get install ansible`
 
 Centos system --     `$ sudo yum install epel-release` and `$ sudo yum install ansible`
@@ -22,7 +22,7 @@ i --> inventory file, m --> module, u --> username, k --> prompt for password, a
 
 `--sudo` --> To run as sudo
 
-## Modules ##
+### Modules ###
 
 To list all the available modules - `ansible -doc -l`
 
