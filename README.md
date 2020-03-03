@@ -10,7 +10,7 @@ Centos system --     `$ sudo yum install epel-release` and `$ sudo yum install a
 Using PIP  --        `$ sudo pip install ansible`
 
 
-Next steps - test with module parametrers, include, register, tempates, when condition
+#Next steps# - test with module parametrers, include, register, tempates, when condition
 
 To run - 
 `absible-playbook playbooks/sample.yml`
